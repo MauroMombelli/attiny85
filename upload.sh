@@ -1,0 +1,1 @@
+/usr/share/arduino/hardware/tools/avr/bin/avrdude -C/usr/share/arduino/hardware/tools/avr/etc/avrdude.conf -v -pattiny85 -cstk500v1 -P/dev/ttyACM0 -b19200 -Uflash:w:test_bottone.hex:i
